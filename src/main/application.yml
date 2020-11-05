@@ -1,0 +1,12 @@
+cloud:
+  aws:
+    credentials:
+      access-key: <AWS_ACCESS_KEY>
+      secret-key: <AWS_SECRET_KEY>
+      instance-profile: false
+      use-default-aws-credentials-chain: false
+    stack:
+      auto: false
+    region:
+      auto: false
+      static: <AWS_REGION>
